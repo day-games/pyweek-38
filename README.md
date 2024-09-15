@@ -12,3 +12,7 @@ PDM is a modern Python package and dependency manager supporting the latest PEP 
 - `pdm run test` - this command runs unit tests
 - `pdm run type-check` - this command does type checks and suggests improvements
 - `pdm run lint` - this command runs linting checks and suggests improvements
+
+### Running the game
+- do the package installation step
+- execute `python run_game.py`
