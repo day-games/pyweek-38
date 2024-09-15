@@ -1,0 +1,34 @@
+[project]
+name = "pyweek-38"
+version = "0.1.0"
+description = "pygame-38 project by day-games"
+authors = [
+    {name = "day-games", email = "daylight.0001@proton.me"},
+]
+dependencies = [
+    "pymunk>=6.8.1",
+    "pygame-menu>=4.4.3",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=8.3.3",
+    "mypy>=1.11.2",
+    "flake8>=7.1.1",
+]
+
+[tool.pdm.scripts]
+test = "pytest tests/"
+lint = "flake8 src/ tests/ --show-source --statistics"
+type-check = "mypy src/"
