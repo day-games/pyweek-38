@@ -14,10 +14,10 @@ print(screen_sizes())
 serialize_sizes()
 set_global_window_sizes()
 print(globals())
-surface: pygame.Surface = pygame.display.set_mode(get_global_full_screen_size(), RESIZABLE)
+surface: pygame.Surface = pygame.display.set_mode(
+    get_global_full_screen_size(), RESIZABLE
+)
 
 
 if __name__ == "__main__":
     run_main_menu(surface)
-
-

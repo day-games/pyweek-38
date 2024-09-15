@@ -42,7 +42,7 @@ def serialize_sizes():
         json.dump(screen_sizes(), f)
 
 
-def get_ser_sizes(filename: str="screen_sizes.json") -> "dict[str, screen_size]":
+def get_ser_sizes(filename: str = "screen_sizes.json") -> "dict[str, screen_size]":
     screen_sizes_path = Path("screen_sizes.json")
     if not screen_sizes_path.is_file():
         raise Exception("delete screen_sizes.json if present and rerun the game.")

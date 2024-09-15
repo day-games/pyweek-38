@@ -8,14 +8,14 @@ _PYGAME_ICON = [None]
 
 # noinspection PyTypeChecker
 def create_basic_surface(
-    title: str = 'pygame-38 default title',
-    surface: pygame.Surface=None,
-    window_size: Tuple[int, int]=None,
+    title: str = "pygame-38 default title",
+    surface: pygame.Surface = None,
+    window_size: Tuple[int, int] = None,
     pygame_menu_icon: bool = True,
     init_pygame: bool = False,
     center_window: bool = False,
-    **kwargs
-) -> 'pygame.Surface':
+    **kwargs,
+) -> "pygame.Surface":
     """
     Set pygame window.
 
@@ -38,10 +38,10 @@ def create_basic_surface(
     if init_pygame:
         pygame.init()
     if center_window:
-        os.environ['SDL_VIDEO_CENTERED'] = '1'
+        os.environ["SDL_VIDEO_CENTERED"] = "1"
 
     # Create pygame screen and objects
-    if sys.platform == 'darwin':
+    if sys.platform == "darwin":
         kwargs = {}
     if surface is None and window_size is not None:
         try:
