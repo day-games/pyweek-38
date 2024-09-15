@@ -3,7 +3,7 @@ import pygame_menu
 from pygame.locals import RESIZABLE
 from typing import Tuple, Any, Callable
 from .surface import create_basic_surface
-from .window_util import screen_size, get_global_default_window_size, get_global_full_screen_size
+from src.pyweek_38.util.window_util import screen_size, get_global_default_window_size, get_global_full_screen_size
 
 def generate_surface(title: str, surface: pygame.Surface) -> pygame.Surface:
     return create_basic_surface(title, surface, center_window=True)
