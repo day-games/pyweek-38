@@ -1,0 +1,3 @@
+pygame-ce==2.5.1
+pygame-menu==4.4.3
+pdm==2.18.2

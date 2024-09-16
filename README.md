@@ -1,18 +1,41 @@
 # pyweek-38
 
-## development
-### Installing [pdm](https://pdm-project.org/en/latest/)
-PDM is a modern Python package and dependency manager supporting the latest PEP standards. Go to https://pdm-project.org/en/latest/ for installation directions.
+## Development
 
-### Package Installation
-- Clone this repository
-- `pdm install` - install all dependencies
+## Installation
 
-### Running tests
-- `pdm run test` - this command runs unit tests
-- `pdm run type-check` - this command does type checks and suggests improvements
-- `pdm run lint` - this command runs linting checks and suggests improvements
+1. **Clone the Repository:**
 
-### Running the game
-- do the package installation step
-- execute `python run_game.py`
+    ```bash
+    git clone https://github.com/day-games/pyweek-38.git
+    ```
+
+2. **Install Dependencies:**
+
+   Python dependencies can be installed from `requirements.txt`:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage  
+### Running the Game
+1. Complete the installation as mentioned above.
+2. Execute the game:
+    ```bash
+    python run_game.py
+    ```
+
+### Running Tests
+- To run unit tests:
+    ```bash
+    pdm run test
+    ```
+- To perform type checks and get suggestions for improvements:
+    ```bash
+    pdm run type-check
+    ```
+- To run linting checks and receive suggestions for improvements:
+    ```bash
+    pdm run lint
+    ```
