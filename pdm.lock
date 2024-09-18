@@ -5,10 +5,24 @@
 groups = ["default", "lint", "test"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:956526a41bcb59ca2263b84d67ecf7eafdb4027f20eb478739bec9e31ccf17f9"
+content_hash = "sha256:0c2236251e7b493c237403e68bf4f5894a3713a619f28f713fe624098233f6de"
 
 [[metadata.targets]]
 requires_python = ">=3.12"
+
+[[package]]
+name = "attrs"
+version = "24.2.0"
+requires_python = ">=3.7"
+summary = "Classes Without Boilerplate"
+groups = ["default"]
+dependencies = [
+    "importlib-metadata; python_version < \"3.8\"",
+]
+files = [
+    {file = "attrs-24.2.0-py3-none-any.whl", hash = "sha256:81921eb96de3191c8258c199618104dd27ac608d9366f5e35d011eae1867ede2"},
+    {file = "attrs-24.2.0.tar.gz", hash = "sha256:5cfb1b9148b5b086569baec03f20d7b6bf3bcacc9a42bebf87ffaaca362f6346"},
+]
 
 [[package]]
 name = "black"
@@ -323,6 +337,32 @@ dependencies = [
 files = [
     {file = "pytest-8.3.3-py3-none-any.whl", hash = "sha256:a6853c7375b2663155079443d2e45de913a911a11d669df02a50814944db57b2"},
     {file = "pytest-8.3.3.tar.gz", hash = "sha256:70b98107bd648308a7952b06e6ca9a50bc660be218d53c257cc1fc94fda10181"},
+]
+
+[[package]]
+name = "pytiled-parser"
+version = "2.2.6"
+requires_python = ">=3.6"
+summary = "A library for parsing Tiled Map Editor maps and tilesets"
+groups = ["default"]
+dependencies = [
+    "attrs>=18.2.0",
+    "typing-extensions",
+]
+files = [
+    {file = "pytiled_parser-2.2.6-py2.py3-none-any.whl", hash = "sha256:bc4271226fe3d29b416f0c9d0c06074cac3c748ae4f3dbbba2ff674dbbe4a43e"},
+    {file = "pytiled_parser-2.2.6.tar.gz", hash = "sha256:8fcebe4dd726728b8b1608c04d70ef093d46bba87cea2e794c2c776d646c2a49"},
+]
+
+[[package]]
+name = "pytmx"
+version = "3.32"
+requires_python = ">=3.7"
+summary = "Loads tiled tmx maps"
+groups = ["default"]
+files = [
+    {file = "PyTMX-3.32-py3-none-any.whl", hash = "sha256:4da4c01133dfcb2746cb4e7f46ea1aef21d56119ab044f8f77b9906dea5fbccb"},
+    {file = "PyTMX-3.32.tar.gz", hash = "sha256:858fd8338f8e7de0e7967604f008022c26735ab98780b2c5d94d2e2c2f5809ca"},
 ]
 
 [[package]]

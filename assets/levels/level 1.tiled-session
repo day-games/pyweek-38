@@ -1,0 +1,94 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "/home/anmol/Documents/logos/game/day-games/tileset assets/underwater.tsx": {
+            "scaleInDock": 1
+        },
+        "example.tmx": {
+            "scale": 0.8827083333333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 479.20698607505307,
+                "y": 319.47132405003543
+            }
+        },
+        "level 1 complete.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 289,
+                "y": 305
+            }
+        },
+        "level 2 complete.tmx": {
+            "scale": 1.3003124999999998,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 320.6921413121847,
+                "y": 320.6921413121847
+            }
+        },
+        "level 3 complete.tmx": {
+            "scale": 1.3003124999999998,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 320.6921413121847,
+                "y": 320.6921413121847
+            }
+        },
+        "level 4.tmx": {
+            "scale": 1.3003124999999998,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 306.84931506849324,
+                "y": 219.94712809420818
+            }
+        },
+        "level 5 small.tmx": {
+            "scale": 1.3003124999999998,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 320.6921413121847,
+                "y": 320.6921413121847
+            }
+        },
+        "level 5.tmx": {
+            "scale": 1.05925,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 400.2832192589096,
+                "y": 368.18503658248756
+            }
+        },
+        "level 6.tmx": {
+            "scale": 1.04025,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 399.9038692621966,
+                "y": 399.9038692621966
+            }
+        }
+    },
+    "last.exportedFilePath": "/home/anmol/dev/pyweek/layouts",
+    "last.imagePath": "/home/anmol/Documents/logos/game/day-games/banner",
+    "map.height": 25,
+    "map.lastUsedExportFilter": "All Files (*)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 32,
+    "map.tileWidth": 32,
+    "map.width": 35,
+    "openFiles": [
+    ],
+    "project": "level 1.tiled-project",
+    "recentFiles": [
+        "level 1 complete.tmx",
+        "example.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx"
+}
