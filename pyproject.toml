@@ -8,6 +8,8 @@ authors = [
 dependencies = [
     "pymunk>=6.8.1",
     "pygame-menu>=4.4.3",
+    "pytiled-parser>=2.2.6",
+    "pytmx>=3.32",
 ]
 requires-python = ">=3.12"
 readme = "README.md"
